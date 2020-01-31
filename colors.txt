@@ -1,165 +1,433 @@
-// Includes all available CSS colors.
-// https://www.w3schools.com/colors/colors_groups.asp
+// Includes all colors described by their closest shade and brightness.
+// https://en.wikipedia.org/wiki/List_of_colors_by_shade
 
-// Blues
-#000080,Navy
-#00008B,Dark Blue
-#0000CD,Medium Blue
-#0000FF,Blue
-#00BFFF,Deep Sky Blue
-#191970,Midnight Blue
-#1E90FF,Dodger Blue
-#4169E1,Royal Blue
-#4682B4,Steel Blue
-#5F9EA0,Cadet Blue
-#6495ED,Cornflower Blue
-#87CEEB,Sky Blue
-#87CEFA,Light Sky Blue
-#ADD8E6,Light Blue
-#B0C4DE,Light Steel Blue
-#B0E0E6,Powder Blue
+// Colors were considered 'Dark' if their grayscale value was <75.
+// Colors were considered 'Light' if their grayscale value was >170.
+// Graycale values were calculated by the formula '(r * 11 + g * 16 + b * 5) / 32' for r,b values between 0 and 255.
 
-// Browns
-#800000,Maroon
-#808000,Olive
-#8B4513,Saddle Brown
-#A0522D,Sienna
-#A52A2A,Brown
-#B8860B,Dark Golden Rod
-#BC8F8F,Rosy Brown
-#CD853F,Peru
-#D2691E,Chocolate
-#D2B48C,Tan
-#DAA520,Golden Rod
-#DEB887,Burly Wood
-#F4A460,Sandy Brown
-#F5DEB3,Wheat
-#FFDEAD,Navajo White
-#FFE4C4,Bisque
-#FFEBCD,Blanched Almond
-#FFF8DC,Cornsilk
-
-// Cyans
-#00CED1,Dark Turquoise
-#00FFFF,Aqua
-#00FFFF,Cyan
-#40E0D0,Turquoise
-#48D1CC,Medium Turquoise
-#7FFFD4,Aquamarine
-#AFEEEE,Pale Turquoise
-#E0FFFF,Light Cyan
-
-// Grays
-#000000,Black
-#2F4F4F,Dark Slate Gray
-#696969,Dim Gray
-#708090,Slate Gray
-#778899,Light Slate Gray
-#808080,Gray
-#A9A9A9,Dark Gray
-#C0C0C0,Silver
-#D3D3D3,Light Gray
-#DCDCDC,Gainsboro
-
-// Greens
-#006400,Dark Green
-#008000,Green
-#008080,Teal
-#008B8B,Dark Cyan
-#00FA9A,Medium Spring Green
-#00FF00,Lime
-#00FF7F,Spring Green
-#20B2AA,Light Sea Green
-#228B22,Forest Green
-#2E8B57,Sea Green
-#32CD32,Lime Green
-#3CB371,Medium Sea Green
-#556B2F,Dark Olive Green
-#66CDAA,Medium Aqua Marine
-#6B8E23,Olive Drab
-#7CFC00,Lawn Green
-#7FFF00,Chartreuse
-#8FBC8F,Dark Sea Green
-#90EE90,Light Green
-#98FB98,Pale Green
-#9ACD32,Yellow Green
-#ADFF2F,Green Yellow
-
-// Oranges
-#FF4500,Orange Red
-#FF6347,Tomato
-#FF7F50,Coral
-#FF8C00,Dark Orange
-#FFA500,Orange
-
-// Pinks
-#C71585,Medium Violet Red
-#DB7093,Pale Violet Red
-#FF1493,Deep Pink
-#FF69B4,Hot Pink
-#FFB6C1,Light Pink
-#FFC0CB,Pink
-
-// Purples
-#483D8B,Dark Slate Blue
-#4B0082,Indigo
-#663399,Rebecca Purple
-#6A5ACD,Slate Blue
-#7B68EE,Medium Slate Blue
-#800080,Purple
-#8A2BE2,Blue Violet
-#8B008B,Dark Magenta
-#9370DB,Medium Purple
-#9400D3,Dark Violet
-#9932CC,Dark Orchid
-#BA55D3,Medium Orchid
-#D8BFD8,Thistle
-#DA70D6,Orchid
-#DDA0DD,Plum
-#E6E6FA,Lavender
-#EE82EE,Violet
-#FF00FF,Fuchsia
-#FF00FF,Magenta
-
-// Reds
-#8B0000,Dark Red
-#B22222,Fire Brick
-#CD5C5C,Indian Red
-#DC143C,Crimson
-#E9967A,Dark Salmon
-#F08080,Light Coral
-#FA8072,Salmon
-#FF0000,Red
-#FFA07A,Light Salmon
-
-// Whites
-#F0F8FF,Alice Blue
-#F0FFF0,Honey Dew
-#F0FFFF,Azure
-#F5F5DC,Beige
-#F5F5F5,White Smoke
-#F5FFFA,Mint Cream
-#F8F8FF,Ghost White
-#FAEBD7,Antique White
-#FAF0E6,Linen
-#FDF5E6,Old Lace
-#FFE4E1,Misty Rose
-#FFF0F5,Lavender Blush
-#FFF5EE,Sea Shell
-#FFFAF0,Floral White
-#FFFAFA,Snow
-#FFFFF0,Ivory
+// White
 #FFFFFF,White
+#FEFEFA,Whiteish
+#FFFFF0,Whiteish
+#FFFAFA,Whiteish
+#FFFAF0,Whiteish
+#F8F8FF,Whiteish
+#FFF5EE,Whiteish
+#FFF8DC,Whiteish
+#FFFDD0,Whiteish
+#F5F5F5,Whiteish
+#FDF5E6,Whiteish
+#FAEBD7,Whiteish
+#EDEAE0,Whiteish
+#F1E9D2,Whiteish
+#F7E7CE,Whiteish
+#F0EAD6,Whiteish
+#FFDEAD,Whiteish
+#F3E5AB,Whiteish
+#EFDFBB,Whiteish
+#E3DAC9,Whiteish
 
-// Yellows
-#BDB76B,Dark Khaki
-#EEE8AA,Pale Golden Rod
-#F0E68C,Khaki
-#FAFAD2,Light Golden Rod Yellow
-#FFD700,Gold
-#FFDAB9,Peach Puff
-#FFE4B5,Moccasin
-#FFEFD5,Papaya Whip
-#FFFACD,Lemon Chiffon
-#FFFF00,Yellow
+// Gray
+#E5E4E2,Light Gray
+#DCDCDC,Light Gray
+#D3D3D3,Light Gray
+#C0C0C0,Light Gray
+#BEBEBE,Light Gray
+#B2BEB5,Light Gray
+#CC8899,Light Gray
+#AA98A9,Gray
+#91A3B0,Gray
+#989898,Gray
+#928E85,Gray
+#98817B,Gray
+#8A7F8D,Gray
+#848482,Gray
+#808080,Gray
+#738678,Gray
+#708090,Gray
+#727472,Gray
+#696969,Gray
+#5E716A,Gray
+#4C5866,Gray
+#555555,Gray
+#36454F,Dark Gray
+#343434,Dark Gray
+#2A3439,Dark Gray
+
+// Black
+#555D50,Blackish
+#414A4C,Blackish
+#3B3C36,Blackish
+#4B3621,Blackish
+#353839,Blackish
+#253529,Blackish
+#242124,Blackish
+#3D0C02,Blackish
+#1B1B1B,Blackish
+#1A1110,Blackish
+#000000,Black
+
+// Brown
+#F5F5DC,Light Brown
+#F0DC82,Light Brown
+#EDC9AF,Light Brown
+#D2B48C,Light Brown
+#F4A460,Light Brown
+#C3B091,Light Brown
+#C19A6B,Brown
+#BC8F8F,Brown
+#CD853F,Brown
+#9F8170,Brown
+#D2691E,Brown
+#826644,Brown
+#954535,Brown
+#964B00,Brown
+#A52A2A,Brown
+#80461B,Brown
+#5C5248,Brown
+#8A3324,Brown
+#6B4423,Brown
+#7B3F00,Dark Brown
+#832A0D,Dark Brown
+#483C32,Dark Brown
+
+// Pink
+#FFDDF4,Light Pink
+#FDDDE6,Light Pink
+#FFDAE9,Light Pink
+#F1DDCF,Light Pink
+#F9CCCA,Light Pink
+#FFC0CB,Light Pink
+#FFBCD9,Light Pink
+#E8CCD7,Light Pink
+#EDCDC2,Light Pink
+#F2C1D1,Light Pink
+#F4C2C2,Light Pink
+#FFB3DE,Light Pink
+#F7BFBE,Light Pink
+#F2BDCD,Light Pink
+#FFB7C5,Light Pink
+#FFB6C1,Light Pink
+#EFBBCC,Light Pink
+#FBAED2,Light Pink
+#E8C3BA,Light Pink
+#FFA6C9,Light Pink
+#DBB2D1,Light Pink
+#F19CBB,Light Pink
+#FF91AF,Light Pink
+#DEA5A4,Light Pink
+#FF6FFF,Light Pink
+#FC89AC,Light Pink
+#C4AEAD,Light Pink
+#F77FBE,Light Pink
+#E68FAC,Light Pink
+#FF66CC,Light Pink
+#F88379,Light Pink
+#FF69B4,Light Pink
+#ED7A9B,Light Pink
+#FD6C9E,Light Pink
+#FF5CCD,Light Pink
+#D7837F,Pink
+#DE6FA1,Pink
+#FB607F,Pink
+#E4717A,Pink
+#CF6BA9,Pink
+#DE5285,Pink
+#D74894,Pink
+#CC33CC,Pink
+#E63E62,Pink
+#FC0FC0,Pink
+#FF1493,Pink
+#DA1884,Pink
+#893843,Pink
+
+// Red
+#FF91A4,Light Red
+#FF7F7F,Light Red
+#FA8072,Light Red
+#CD5C5C,Red
+#E44D2E,Red
+#E23D28,Red
+#A45A52,Red
+#ED2939,Red
+#EE204D,Red
+#DA2C43,Red
+#FF2400,Red
+#ED1C24,Red
+#E62020,Red
+#E0115F,Red
+#DC143C,Red
+#CE2029,Red
+#F2003C,Red
+#C41E3A,Red
+#FF0000,Red
+#E60026,Red
+#B22222,Red
+#B31B1B,Red
+#C40233,Red
+#733635,Dark Red
+#A91101,Dark Red
+#A50021,Dark Red
+#841617,Dark Red
+#960018,Dark Red
+#7C0A02,Dark Red
+#8B0000,Dark Red
+#800000,Dark Red
+#58111A,Dark Red
+#660000,Dark Red
+
+// Orange
+#FFEFD5,Light Orange
+#FFE5B4,Light Orange
+#FED8B1,Light Orange
+#FBCEB1,Light Orange
+#FDBCB4,Light Orange
+#FFD700,Light Orange
+#F4C430,Light Orange
+#FF9966,Light Orange
+#FFA500,Light Orange
+#FF9F00,Light Orange
+#FF7F50,Light Orange
+#E09540,Light Orange
+#D99058,Orange
+#ED9121,Orange
+#FF8C00,Orange
+#FE6F5E,Orange
+#FF7538,Orange
+#EE7F2D,Orange
+#FF8200,Orange
+#FF7F00,Orange
+#F28500,Orange
+#FF7518,Orange
+#FF6347,Orange
+#FE5A1D,Orange
+#FF5800,Orange
+#E86100,Orange
+#EC5800,Orange
+#D05340,Orange
+#E34234,Orange
+#C46210,Orange
+#B56917,Orange
+#BF4F51,Orange
+#BF5700,Orange
+#D44500,Orange
+
+// Yellow
 #FFFFE0,Light Yellow
+#FFFFCC,Light Yellow
+#FFFACD,Light Yellow
+#FFFF99,Light Yellow
+#FFFF66,Light Yellow
+#FCE883,Light Yellow
+#FAFA37,Light Yellow
+#FFFF00,Light Yellow
+#F8DE7E,Light Yellow
+#FDFF00,Light Yellow
+#EEEA62,Light Yellow
+#FADA5E,Light Yellow
+#FFEF00,Light Yellow
+#EEED09,Light Yellow
+#FEDF00,Light Yellow
+#FFD300,Light Yellow
+#EED202,Light Yellow
+#EFCC00,Light Yellow
+#FFAA1D,Light Yellow
+#E8AC41,Light Yellow
+#DAA520,Light Yellow
+
+// Green
+#D0F0C0,Light Green
+#DADD98,Light Green
+#98FB98,Light Green
+#ACE1AF,Light Green
+#ADFF2F,Light Green
+#BFFF00,Light Green
+#90EE90,Light Green
+#76FF7A,Light Green
+#4FFFB0,Light Green
+#A9BA9D,Light Green
+#66FF00,Light Green
+#74C365,Green
+#71BC78,Green
+#39FF14,Green
+#3FFF00,Green
+#87A96B,Green
+#55DD33,Green
+#50C878,Green
+#8F9779,Green
+#8A9A5B,Green
+#00FF40,Green
+#3EB489,Green
+#00FF00,Green
+#32CD32,Green
+#0BDA51,Green
+#679267,Green
+#4CBB17,Green
+#29AB87,Green
+#1CAC78,Green
+#6C7C59,Green
+#808000,Green
+#00AD83,Green
+#03C03C,Green
+#00A693,Green
+#49796B,Green
+#00A877,Green
+#00AB66,Green
+#00A86B,Green
+#2E8B57,Green
+#4F7942,Green
+#009F6B,Green
+#568203,Green
+#00A550,Green
+#317873,Green
+#009E60,Green
+#4B6F44,Green
+#228B22,Green
+#4D5D53,Green
+#009150,Green
+#01796F,Green
+#4A5D23,Green
+#00853E,Green
+#138808,Green
+#355E3B,Dark Green
+#4B5320,Dark Green
+#009000,Dark Green
+#444C38,Dark Green
+#006A4E,Dark Green
+#008000,Dark Green
+#00693E,Dark Green
+#1B4D3E,Dark Green
+#00573F,Dark Green
+#00563B,Dark Green
+#18453B,Dark Green
+#006400,Dark Green
+#004953,Dark Green
+#014421,Dark Green
+#01411C,Dark Green
+#043927,Dark Green
+#013220,Dark Green
+
+// Cyan
+#E0FFFF,Light Cyan
+#C9FFE5,Light Cyan
+#B2FFFF,Light Cyan
+#7DF9FF,Light Cyan
+#7FFFD4,Light Cyan
+#87D3F8,Light Cyan
+#80DAEB,Light Cyan
+#81D8D0,Light Cyan
+#00FFFF,Light Cyan
+#40E0D0,Light Cyan
+#43B3AE,Cyan
+#00CCCC,Cyan
+#3AB09E,Cyan
+#00B7EB,Cyan
+#20B2AA,Cyan
+#0D98BA,Cyan
+#40826D,Cyan
+#008B8B,Cyan
+#007BA7,Cyan
+#008080,Cyan
+#1164B4,Cyan
+#006D6F,Dark Cyan
+#004C54,Dark Cyan
+#232B2B,Dark Cyan
+
+// Blue
+#99FFFF,Light Blue
+#CCCCFF,Light Blue
+#B0E0E6,Light Blue
+#AFDBF5,Light Blue
+#ADD8E6,Light Blue
+#89CFF0,Light Blue
+#15F4EE,Light Blue
+#6CB4EE,Light Blue
+#76ABDF,Blue
+#8DA399,Blue
+#1F75FE,Blue
+#4B61D1,Blue
+#4D4DFF,Blue
+#0093AF,Blue
+#545AA7,Blue
+#367588,Blue
+#0087BD,Blue
+#0070BB,Blue
+#4C516D,Blue
+#007791,Blue
+#224C98,Dark Blue
+#333399,Dark Blue
+#4000FF,Dark Blue
+#1034A6,Dark Blue
+#1F305E,Dark Blue
+#1E2952,Dark Blue
+#0000FF,Dark Blue
+#0018A8,Dark Blue
+#002387,Dark Blue
+#191970,Dark Blue
+#082567,Dark Blue
+#0000CD,Dark Blue
+#00008B,Dark Blue
+#000080,Dark Blue
+
+// Voilet
+#EE82EE,Light Voilet
+#C9A0DC,Light Voilet
+#B57EDC,Voilet
+#B284BE,Voilet
+#856088,Voilet
+#645394,Voilet
+#9F00FF,Voilet
+#8F00FF,Voilet
+#6F2DA8,Voilet
+#7F00FF,Voilet
+#9400D3,Voilet
+#8806CE,Voilet
+#563C5C,Dark Voilet
+#5B3256,Dark Voilet
+#4C2882,Dark Voilet
+#32174D,Dark Voilet
+
+// Purple
+#FAE6FA,Light Purple
+#E0B0FF,Light Purple
+#D8BFD8,Light Purple
+#DF73FF,Light Purple
+#DA70D6,Light Purple
+#FE4EDA,Purple
+#9370DB,Purple
+#B768A2,Purple
+#C54B8C,Purple
+#9A4EAE,Purple
+#DF00FF,Purple
+#86608E,Purple
+#7851A9,Purple
+#A020F0,Purple
+#BF00FF,Purple
+#C71585,Purple
+#9F00C5,Purple
+#6C3082,Purple
+#702963,Dark Purple
+#72246C,Dark Purple
+#512888,Dark Purple
+#4E2A84,Dark Purple
+#880085,Dark Purple
+#800080,Dark Purple
+#78184A,Dark Purple
+#66023C,Dark Purple
+#301934,Dark Purple
+
+// Magenta
+#CF71AF,Magenta
+#F653A6,Magenta
+#FF33CC,Magenta
+#FF1DCE,Magenta
+#FF00FF,Magenta
+#D0417E,Magenta
+#CF3476,Magenta
+#FF0090,Magenta
+#9F4576,Magenta
+#CA1F7B,Magenta
+#AB274F,Magenta
+#843179,Magenta
+#9A114F,Dark Magenta
+#8B008B,Dark Magenta

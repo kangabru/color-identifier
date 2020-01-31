@@ -11,7 +11,6 @@ from src.styles import Stylesheet
 from src.util import GetResourcePath, LoadColorDescriptions, CenterOnScreen
 
 _COLOR_FILE_PATH = 'colors.txt'
-_COLOR_SHADES_FILE_PATH = 'colors-shades.txt'
 _SLOW_FACTOR = 0.3
 
 class App(QDialog):
@@ -21,7 +20,7 @@ class App(QDialog):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.setWindowTitle("Color Identifier")
-        self.setGeometry(-1, -1, 150, 150) # left, top, width, height
+        self.setGeometry(-1, -1, 150, 50) # left, top, width, height
         self.setWindowIcon(QIcon(GetResourcePath("icon/icon.png")))
 
         CenterOnScreen(self)
@@ -49,9 +48,7 @@ class App(QDialog):
         hlayout.addWidget(self.color_circle)
 
         descriptions = LoadColorDescriptions(self._get_color_file())
-        shades = LoadColorDescriptions(self._get_color_shades_file())
-
-        self.color_labels = ColorLabels(descriptions, shades)
+        self.color_labels = ColorLabels(descriptions)
         hlayout.addWidget(self.color_labels)
 
     def _get_color_file(self):
