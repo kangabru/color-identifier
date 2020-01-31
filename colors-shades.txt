@@ -26,7 +26,6 @@
 #F3E5AB,White,Whiteish
 #EFDFBB,White,Whiteish
 #E3DAC9,White,Whiteish
-#EEDC82,White,Whiteish
 
 // Gray
 #E5E4E2,Gray,Light Gray
@@ -39,14 +38,11 @@
 #AA98A9,Gray,Gray
 #91A3B0,Gray,Gray
 #989898,Gray,Gray
-#9090C0,Gray,Gray
-#6699CC,Gray,Gray
 #928E85,Gray,Gray
 #98817B,Gray,Gray
 #8A7F8D,Gray,Gray
 #848482,Gray,Gray
 #808080,Gray,Gray
-#6082B6,Gray,Gray
 #738678,Gray,Gray
 #708090,Gray,Gray
 #727472,Gray,Gray
