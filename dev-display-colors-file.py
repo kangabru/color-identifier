@@ -50,7 +50,7 @@ class ColorViewer(QListView):
     def _addColors(self, descriptions: COLOR_DESCRIPTIONS_TYPE):
         for i, color in enumerate(descriptions):
             alt = color.description_alt
-            text = "%s: %s%s" % (i + 1, color.description, ", %s" % alt if alt else "")
+            text = "%s: %s" % (i + 1, color)
             self._addColor(color.hex, text)
 
     def _addColor(self, color, description):
