@@ -1,6 +1,7 @@
 import sys
 from os import path
 from PyQt5.QtGui import QColor
+from PyQt5.QtWidgets import QWidget, QDesktopWidget
 from typing import List, Optional
 
 
@@ -33,7 +34,9 @@ class ColorDescription:
         return "%s,%s,%s" % (h, d, a) if a else  "%s,%s" % (h, d)
 
 
-def LoadColorDescriptions(file_path: str) -> List[ColorDescription]:
+COLOR_DESCRIPTIONS_TYPE = List[ColorDescription]
+
+def LoadColorDescriptions(file_path: str) -> COLOR_DESCRIPTIONS_TYPE:
     descriptions = dict() # Insertion order is maintained from pyhton 3.6
     with open(file_path, 'r') as f:
         lines = f.readlines()
@@ -62,7 +65,7 @@ def LoadColorDescriptions(file_path: str) -> List[ColorDescription]:
     return descriptions.keys()
 
 
-def GetClosestColor(color: QColor, descriptions: List[ColorDescription]) -> Optional[ColorDescription]:
+def GetClosestColor(color: QColor, descriptions: COLOR_DESCRIPTIONS_TYPE) -> Optional[ColorDescription]:
     r, g, b, _ = color.getRgb()
 
     min_diff_squared: int = None
@@ -79,3 +82,9 @@ def GetClosestColor(color: QColor, descriptions: List[ColorDescription]) -> Opti
             closest = color_description
 
     return closest
+
+
+def CenterOnScreen(widget: QWidget):
+    resolution = QDesktopWidget().screenGeometry()
+    widget.move((resolution.width() / 2) - (widget.frameSize().width() / 2),
+                (resolution.height() / 2) - (widget.frameSize().height() / 2))

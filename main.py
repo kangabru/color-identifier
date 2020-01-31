@@ -1,13 +1,13 @@
 import sys
 from PyQt5.QtCore import Qt, pyqtSignal, QPoint
 from PyQt5.QtGui import QColor, QIcon, QMouseEvent
-from PyQt5.QtWidgets import QDialog, QWidget, QVBoxLayout, QHBoxLayout, QApplication, QDesktopWidget
+from PyQt5.QtWidgets import QDialog, QWidget, QVBoxLayout, QHBoxLayout, QApplication
 
 from src.ColorCircle import ColorCircle
 from src.ColorPicker import getAverageColor, ScaleWindow
 from src.ColorLabels import ColorLabels
 from src.styles import Stylesheet
-from src.util import GetResourcePath, LoadColorDescriptions
+from src.util import GetResourcePath, LoadColorDescriptions, CenterOnScreen
 
 _COLOR_FILE_PATH = 'colors.txt'
 _COLOR_SHADES_FILE_PATH = 'colors-shades.txt'
@@ -23,12 +23,12 @@ class App(QDialog):
         self.setGeometry(-1, -1, 150, 150) # left, top, width, height
         self.setWindowIcon(QIcon(GetResourcePath("icon/icon.png")))
 
-        self.centerOnScreen()
+        CenterOnScreen(self)
         self.setStyleSheet(Stylesheet)
         self.setWindowFlag(Qt.WindowContextHelpButtonHint, False)
 
-        self.initUi()
-        self.initSignals()
+        self._initUi()
+        self._initSignals()
         self.show()
 
         # Init the little zoom window
@@ -36,7 +36,7 @@ class App(QDialog):
         self._viewer_pos = None
         self._mouse_pos_slow = None
 
-    def initUi(self):
+    def _initUi(self):
         content = QWidget(self)
         layout = QVBoxLayout(self)
         layout.addWidget(content)
@@ -53,7 +53,7 @@ class App(QDialog):
         self.color_labels = ColorLabels(descriptions, shades)
         hlayout.addWidget(self.color_labels)
 
-    def initSignals(self):
+    def _initSignals(self):
         self._connectColorUpdates(self.colorChanged.connect)
 
     def _connectColorUpdates(self, func):
@@ -100,11 +100,6 @@ class App(QDialog):
         d_pos = mouse_pos - slow_pos
         d_x, d_y = d_pos.x() * d_fact, d_pos.y() * d_fact
         return slow_pos + QPoint(d_x, d_y)
-
-    def centerOnScreen(self):
-        resolution = QDesktopWidget().screenGeometry()
-        self.move((resolution.width() / 2) - (self.frameSize().width() / 2),
-                  (resolution.height() / 2) - (self.frameSize().height() / 2))
 
 
 if __name__ == '__main__':

@@ -2,12 +2,11 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QLabel, QWidget, QVBoxLayout
 from PyQt5.QtGui import QColor
 from typing import List, Optional
-from src.util import ColorDescription, GetClosestColor
+from src.util import ColorDescription, GetClosestColor, COLOR_DESCRIPTIONS_TYPE
 
-_DESCRIPTION_TYPE = List[ColorDescription]
 
 class ColorLabels(QWidget):
-    def __init__(self, descriptions: _DESCRIPTION_TYPE, shades: _DESCRIPTION_TYPE = None):
+    def __init__(self, descriptions: COLOR_DESCRIPTIONS_TYPE, shades: COLOR_DESCRIPTIONS_TYPE = None):
         super().__init__()
         self._color_hex_code = _ColorHexCode()
         self._color_description = _ColorDescription(descriptions)
@@ -38,7 +37,7 @@ class _ColorHexCode(QLabel):
 
 
 class _ColorDescription(QLabel):
-    def __init__(self, descriptions: _DESCRIPTION_TYPE, use_alt=False):
+    def __init__(self, descriptions: COLOR_DESCRIPTIONS_TYPE, use_alt=False):
         super().__init__()
         self.setText("-")
         self._descriptions = descriptions
