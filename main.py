@@ -10,6 +10,7 @@ from src.styles import Stylesheet
 from src.util import GetResourcePath, LoadColorDescriptions
 
 _COLOR_FILE_PATH = 'colors.txt'
+_COLOR_SHADES_FILE_PATH = 'colors-shades.txt'
 _SLOW_FACTOR = 0.3
 
 class App(QDialog):
@@ -47,7 +48,9 @@ class App(QDialog):
         hlayout.addWidget(self.color_circle)
 
         descriptions = LoadColorDescriptions(_COLOR_FILE_PATH)
-        self.color_labels = ColorLabels(descriptions)
+        shades = LoadColorDescriptions(_COLOR_SHADES_FILE_PATH)
+
+        self.color_labels = ColorLabels(descriptions, shades)
         hlayout.addWidget(self.color_labels)
 
     def initSignals(self):
