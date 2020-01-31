@@ -13,7 +13,6 @@
 #002387,Blue,Dark Blue
 #191970,Blue,Dark Blue
 #0000FF,Blue,Dark Blue
-#0000FF,Blue,Dark Blue
 #1E2952,Blue,Dark Blue
 #1F305E,Blue,Dark Blue
 #1034A6,Blue,Dark Blue
@@ -22,7 +21,6 @@
 #224C98,Blue,Dark Blue
 #007791,Blue,Blue
 #4C516D,Blue,Blue
-#008080,Blue,Blue
 #0070BB,Blue,Blue
 #0087BD,Blue,Blue
 #367588,Blue,Blue
@@ -42,23 +40,16 @@
 #CCCCFF,Blue,Light Blue
 #99FFFF,Blue,Light Blue
 #000000,Black,Black
-#1A1110,Black,Black
-#3D0C02,Black,Black
-#1B1B1B,Black,Black
-#242124,Black,Black
-#191970,Black,Black
-#232B2B,Black,Black
-#253529,Black,Black
-#343434,Black,Black
-#353839,Black,Black
-#4B3621,Black,Black
-#3B3C36,Black,Black
-#483C32,Black,Black
-#36454F,Black,Black
-#414A4C,Black,Black
-#555555,Black,Black
-#555D50,Black,Black
-#696969,Black,Black
+#1A1110,Black,Blackish
+#3D0C02,Black,Blackish
+#1B1B1B,Black,Blackish
+#242124,Black,Blackish
+#253529,Black,Blackish
+#353839,Black,Blackish
+#4B3621,Black,Blackish
+#3B3C36,Black,Blackish
+#414A4C,Black,Blackish
+#555D50,Black,Blackish
 #483C32,Brown,Dark Brown
 #832A0D,Brown,Dark Brown
 #7B3F00,Brown,Dark Brown
@@ -81,10 +72,8 @@
 #EDC9AF,Brown,Light Brown
 #F0DC82,Brown,Light Brown
 #F5F5DC,Brown,Light Brown
-#000000,Gray,Dark Gray
 #2A3439,Gray,Dark Gray
 #343434,Gray,Dark Gray
-#483C32,Gray,Dark Gray
 #36454F,Gray,Dark Gray
 #555555,Gray,Gray
 #4C5866,Gray,Gray
@@ -94,7 +83,6 @@
 #738678,Gray,Gray
 #708090,Gray,Gray
 #6082B6,Gray,Gray
-#808080,Gray,Gray
 #808080,Gray,Gray
 #848482,Gray,Gray
 #8A7F8D,Gray,Gray
@@ -112,7 +100,6 @@
 #D3D3D3,Gray,Light Gray
 #DCDCDC,Gray,Light Gray
 #E5E4E2,Gray,Light Gray
-#FFFFFF,Gray,Light Gray
 #8B008B,Magenta,Dark Magenta
 #9A114F,Magenta,Dark Magenta
 #843179,Magenta,Magenta
@@ -122,17 +109,11 @@
 #FF0090,Magenta,Magenta
 #CF3476,Magenta,Magenta
 #D0417E,Magenta,Magenta
-#FC0FC0,Magenta,Magenta
 #FF00FF,Magenta,Magenta
-#FF00FF,Magenta,Magenta
-#CC33CC,Magenta,Magenta
 #FF1DCE,Magenta,Magenta
 #FF33CC,Magenta,Magenta
 #F653A6,Magenta,Magenta
 #CF71AF,Magenta,Magenta
-#FE4EDA,Magenta,Magenta
-#DA70D6,Magenta,Light Magenta
-#FF6FFF,Magenta,Light Magenta
 #232B2B,Cyan,Dark Cyan
 #004C54,Cyan,Dark Cyan
 #006D6F,Cyan,Dark Cyan
@@ -148,7 +129,6 @@
 #00CCCC,Cyan,Cyan
 #43B3AE,Cyan,Cyan
 #40E0D0,Cyan,Light Cyan
-#00FFFF,Cyan,Light Cyan
 #00FFFF,Cyan,Light Cyan
 #81D8D0,Cyan,Light Cyan
 #80DAEB,Cyan,Light Cyan
@@ -179,7 +159,6 @@
 #00853E,Green,Green
 #4A5D23,Green,Green
 #01796F,Green,Green
-#008080,Green,Green
 #4D5D53,Green,Green
 #009150,Green,Green
 #228B22,Green,Green
@@ -206,14 +185,11 @@
 #679267,Green,Green
 #0BDA51,Green,Green
 #00FF00,Green,Green
-#00FF00,Green,Green
-#00FF00,Green,Green
 #32CD32,Green,Green
 #3EB489,Green,Green
 #00FF40,Green,Green
 #8A9A5B,Green,Green
 #8F9779,Green,Green
-#50C878,Green,Green
 #50C878,Green,Green
 #87A96B,Green,Green
 #55DD33,Green,Green
@@ -232,7 +208,6 @@
 #98FB98,Green,Light Green
 #DADD98,Green,Light Green
 #D0F0C0,Green,Light Green
-#964B00,Orange,Orange
 #D44500,Orange,Orange
 #BF5700,Orange,Orange
 #BF4F51,Orange,Orange
@@ -258,7 +233,6 @@
 #E09540,Orange,Light Orange
 #FF7F50,Orange,Light Orange
 #FF9F00,Orange,Light Orange
-#F88379,Orange,Light Orange
 #FFA500,Orange,Light Orange
 #FF9966,Orange,Light Orange
 #F4C430,Orange,Light Orange
@@ -319,7 +293,6 @@
 #301934,Purple,Dark Purple
 #66023C,Purple,Dark Purple
 #800080,Purple,Dark Purple
-#800080,Purple,Dark Purple
 #78184A,Purple,Dark Purple
 #880085,Purple,Dark Purple
 #4E2A84,Purple,Dark Purple
@@ -338,7 +311,6 @@
 #C54B8C,Purple,Purple
 #9370DB,Purple,Purple
 #B768A2,Purple,Purple
-#DE6FA1,Purple,Purple
 #FE4EDA,Purple,Purple
 #DA70D6,Purple,Light Purple
 #DF73FF,Purple,Light Purple
@@ -361,7 +333,6 @@
 #B57EDC,Voilet,Voilet
 #C9A0DC,Voilet,Light Voilet
 #EE82EE,Voilet,Light Voilet
-#E0B0FF,Voilet,Light Voilet
 #660000,Red,Dark Red
 #58111A,Red,Dark Red
 #800000,Red,Dark Red
@@ -377,7 +348,6 @@
 #B22222,Red,Red
 #E60026,Red,Red
 #FF0000,Red,Red
-#FF0000,Red,Red
 #C41E3A,Red,Red
 #F2003C,Red,Red
 #CE2029,Red,Red
@@ -389,55 +359,46 @@
 #DA2C43,Red,Red
 #EE204D,Red,Red
 #ED2939,Red,Red
-#ED2939,Red,Red
 #E23D28,Red,Red
 #A45A52,Red,Red
-#E34234,Red,Red
 #E44D2E,Red,Red
 #CD5C5C,Red,Red
 #FA8072,Red,Light Red
-#F88379,Red,Light Red
 #FF7F7F,Red,Light Red
 #FF91A4,Red,Light Red
-#FFC0CB,Red,Light Red
-#EEDC82,White,White
-#E3DAC9,White,White
-#EFDFBB,White,White
-#F3E5AB,White,White
-#FFDEAD,White,White
-#F1E9D2,White,White
-#F7E7CE,White,White
-#F0EAD6,White,White
-#EDEAE0,White,White
-#FAEBD7,White,White
-#F5F5DC,White,White
-#F5F5F5,White,White
-#FDF5E6,White,White
-#FFF8DC,White,White
-#FFFDD0,White,White
-#FFF5EE,White,White
-#F8F8FF,White,White
-#FFFAF0,White,White
-#FFFAFA,White,White
-#FFFFF0,White,White
-#FEFEFA,White,White
+#EEDC82,White,Whiteish
+#E3DAC9,White,Whiteish
+#EFDFBB,White,Whiteish
+#F3E5AB,White,Whiteish
+#FFDEAD,White,Whiteish
+#F1E9D2,White,Whiteish
+#F7E7CE,White,Whiteish
+#F0EAD6,White,Whiteish
+#EDEAE0,White,Whiteish
+#FAEBD7,White,Whiteish
+#F5F5F5,White,Whiteish
+#FDF5E6,White,Whiteish
+#FFF8DC,White,Whiteish
+#FFFDD0,White,Whiteish
+#FFF5EE,White,Whiteish
+#F8F8FF,White,Whiteish
+#FFFAF0,White,Whiteish
+#FFFAFA,White,Whiteish
+#FFFFF0,White,Whiteish
+#FEFEFA,White,Whiteish
 #FFFFFF,White,White
 #DAA520,Yellow,Light Yellow
 #E8AC41,Yellow,Light Yellow
-#C3B091,Yellow,Light Yellow
 #FFAA1D,Yellow,Light Yellow
 #EFCC00,Yellow,Light Yellow
 #EED202,Yellow,Light Yellow
 #FFD300,Yellow,Light Yellow
-#FFD300,Yellow,Light Yellow
-#FFD700,Yellow,Light Yellow
 #FEDF00,Yellow,Light Yellow
 #EEED09,Yellow,Light Yellow
 #FFEF00,Yellow,Light Yellow
 #FADA5E,Yellow,Light Yellow
 #FDFF00,Yellow,Light Yellow
 #EEEA62,Yellow,Light Yellow
-#FFFF00,Yellow,Light Yellow
 #FFFF00,Yellow,Light Yellow
 #F8DE7E,Yellow,Light Yellow
 #FAFA37,Yellow,Light Yellow
