@@ -1,0 +1,165 @@
+// Includes all available CSS colors.
+// https://www.w3schools.com/colors/colors_groups.asp
+
+// Blues
+#000080,Navy
+#00008B,Dark Blue
+#0000CD,Medium Blue
+#0000FF,Blue
+#00BFFF,Deep Sky Blue
+#191970,Midnight Blue
+#1E90FF,Dodger Blue
+#4169E1,Royal Blue
+#4682B4,Steel Blue
+#5F9EA0,Cadet Blue
+#6495ED,Cornflower Blue
+#87CEEB,Sky Blue
+#87CEFA,Light Sky Blue
+#ADD8E6,Light Blue
+#B0C4DE,Light Steel Blue
+#B0E0E6,Powder Blue
+
+// Browns
+#800000,Maroon
+#808000,Olive
+#8B4513,Saddle Brown
+#A0522D,Sienna
+#A52A2A,Brown
+#B8860B,Dark Golden Rod
+#BC8F8F,Rosy Brown
+#CD853F,Peru
+#D2691E,Chocolate
+#D2B48C,Tan
+#DAA520,Golden Rod
+#DEB887,Burly Wood
+#F4A460,Sandy Brown
+#F5DEB3,Wheat
+#FFDEAD,Navajo White
+#FFE4C4,Bisque
+#FFEBCD,Blanched Almond
+#FFF8DC,Cornsilk
+
+// Cyans
+#00CED1,Dark Turquoise
+#00FFFF,Aqua
+#00FFFF,Cyan
+#40E0D0,Turquoise
+#48D1CC,Medium Turquoise
+#7FFFD4,Aquamarine
+#AFEEEE,Pale Turquoise
+#E0FFFF,Light Cyan
+
+// Grays
+#000000,Black
+#2F4F4F,Dark Slate Gray
+#696969,Dim Gray
+#708090,Slate Gray
+#778899,Light Slate Gray
+#808080,Gray
+#A9A9A9,Dark Gray
+#C0C0C0,Silver
+#D3D3D3,Light Gray
+#DCDCDC,Gainsboro
+
+// Greens
+#006400,Dark Green
+#008000,Green
+#008080,Teal
+#008B8B,Dark Cyan
+#00FA9A,Medium Spring Green
+#00FF00,Lime
+#00FF7F,Spring Green
+#20B2AA,Light Sea Green
+#228B22,Forest Green
+#2E8B57,Sea Green
+#32CD32,Lime Green
+#3CB371,Medium Sea Green
+#556B2F,Dark Olive Green
+#66CDAA,Medium Aqua Marine
+#6B8E23,Olive Drab
+#7CFC00,Lawn Green
+#7FFF00,Chartreuse
+#8FBC8F,Dark Sea Green
+#90EE90,Light Green
+#98FB98,Pale Green
+#9ACD32,Yellow Green
+#ADFF2F,Green Yellow
+
+// Oranges
+#FF4500,Orange Red
+#FF6347,Tomato
+#FF7F50,Coral
+#FF8C00,Dark Orange
+#FFA500,Orange
+
+// Pinks
+#C71585,Medium Violet Red
+#DB7093,Pale Violet Red
+#FF1493,Deep Pink
+#FF69B4,Hot Pink
+#FFB6C1,Light Pink
+#FFC0CB,Pink
+
+// Purples
+#483D8B,Dark Slate Blue
+#4B0082,Indigo
+#663399,Rebecca Purple
+#6A5ACD,Slate Blue
+#7B68EE,Medium Slate Blue
+#800080,Purple
+#8A2BE2,Blue Violet
+#8B008B,Dark Magenta
+#9370DB,Medium Purple
+#9400D3,Dark Violet
+#9932CC,Dark Orchid
+#BA55D3,Medium Orchid
+#D8BFD8,Thistle
+#DA70D6,Orchid
+#DDA0DD,Plum
+#E6E6FA,Lavender
+#EE82EE,Violet
+#FF00FF,Fuchsia
+#FF00FF,Magenta
+
+// Reds
+#8B0000,Dark Red
+#B22222,Fire Brick
+#CD5C5C,Indian Red
+#DC143C,Crimson
+#E9967A,Dark Salmon
+#F08080,Light Coral
+#FA8072,Salmon
+#FF0000,Red
+#FFA07A,Light Salmon
+
+// Whites
+#F0F8FF,Alice Blue
+#F0FFF0,Honey Dew
+#F0FFFF,Azure
+#F5F5DC,Beige
+#F5F5F5,White Smoke
+#F5FFFA,Mint Cream
+#F8F8FF,Ghost White
+#FAEBD7,Antique White
+#FAF0E6,Linen
+#FDF5E6,Old Lace
+#FFE4E1,Misty Rose
+#FFF0F5,Lavender Blush
+#FFF5EE,Sea Shell
+#FFFAF0,Floral White
+#FFFAFA,Snow
+#FFFFF0,Ivory
+#FFFFFF,White
+
+// Yellows
+#BDB76B,Dark Khaki
+#EEE8AA,Pale Golden Rod
+#F0E68C,Khaki
+#FAFAD2,Light Golden Rod Yellow
+#FFD700,Gold
+#FFDAB9,Peach Puff
+#FFE4B5,Moccasin
+#FFEFD5,Papaya Whip
+#FFFACD,Lemon Chiffon
+#FFFF00,Yellow
+#FFFFE0,Light Yellow

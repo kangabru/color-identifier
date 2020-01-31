@@ -1,0 +1,109 @@
+// Includes all Crayola drawing crayon colors as defined by their website depiction.
+// https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors
+
+#000000,Black
+#0066CC,Navy Blue
+#0066FF,Blue (III)
+#00755E,Tropical Rain Forest
+#008080,Teal Blue
+#0095B7,Blue-Green
+#009DC4,Pacific Blue
+#00CC99,Caribbean Green
+#00CCCC,Robin's Egg Blue
+#01786F,Pine Green
+#02A4D3,Cerulean
+#1560BD,Denim
+#1AB385,Mountain Meadow
+#29AB87,Jungle Green
+#2D383A,Outer Space
+#33CC99,Shamrock
+#4F69C6,Indigo
+#5FA777,Forest Green
+#614051,Eggplant
+#63B76C,Fern
+#6456B7,Blue-Violet
+#652DC1,Purple Heart
+#6B3FA0,Royal Purple
+#6CDAE7,Turquoise Blue
+#76D7EA,Sky Blue
+#7A89B8,Wild Blue Yonder
+#7BA05B,Asparagus
+#803790,Vivid Violet
+#8359A3,Violet (II)
+#837050,Shadow
+#87421F,Fuzzy Wuzzy
+#8B8680,Gray
+#8D90A1,Manatee
+#8E3179,Plum
+#8FD8D8,Light Blue
+#926F5B,Beaver
+#93CCEA,Cornflower
+#93DFB8,Sea Green
+#9999CC,Blue Bell
+#9DE093,Granny Smith Apple
+#9E5B40,Sepia
+#A50B5E,Jazzberry Jam
+#A9B2C3,Cadet Blue
+#AF593E,Brown
+#AFE313,Inchworm
+#B5B35C,Olive Green
+#B94E48,Indian Red
+#BB3385,Red-Violet
+#C154C1,Fuchsia
+#C32148,Maroon
+#C3CDE6,Periwinkle
+#C5E17A,Yellow-Green
+#C62D42,Brick Red
+#C88A65,Antique Brass
+#C8C8CD,Blue-Gray
+#C9A0DC,Wisteria
+#C9C0BB,Silver
+#CA3435,Mahogany
+#D27D46,Raw Sienna
+#D6AEDD,Purple Mountains' Majesty
+#D9D6CF,Timberwolf
+#DA3287,Cerise
+#DA8A67,Copper
+#DB5079,Blush
+#DEA681,Tumbleweed
+#E29CD2,Orchid
+#E30B5C,Razzmatazz
+#E6BE8A,Gold (II)
+#E77200,Mango Tango
+#E97451,Burnt Sienna
+#ECEBBD,Spring Green
+#ED0A3F,Red
+#EDC9AF,Desert Sand
+#EED9C4,Almond
+#F091A9,Mauvelous
+#F1E788,Green-Yellow
+#F653A6,Magenta
+#F7468A,Violet-Red
+#F7A38E,Pink Sherbert
+#F8D568,Orange-Yellow
+#FBAED2,Lavender (II)
+#FBE7B2,Banana Mania
+#FBE870,Yellow
+#FC80A5,Tickle Me Pink
+#FCD667,Goldenrod
+#FD0E35,Scarlet
+#FDD5B1,Apricot
+#FDD7E4,Piggy Pink
+#FE4C40,Sunset Orange
+#FE6F5E,Bittersweet
+#FEBAAD,Melon
+#FED85D,Dandelion
+#FF3399,Wild Strawberry
+#FF5349,Orange-Red
+#FF681F,Red-Orange
+#FF7034,Burnt Orange
+#FF8833,Orange
+#FF91A4,Salmon
+#FF9980,Vivid Tangerine
+#FFA6C9,Carnation Pink
+#FFAE42,Yellow-Orange
+#FFB7D5,Cotton Candy
+#FFB97B,Macaroni and Cheese
+#FFCBA4,Peach
+#FFFF99,Canary
+#FFFFFF,White
