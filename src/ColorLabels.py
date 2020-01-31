@@ -11,9 +11,7 @@ class ColorLabels(QWidget):
         super().__init__()
         self._color_hex_code = _ColorHexCode()
         self._color_description = _ColorDescription(descriptions)
-
-        secondary = shades if shades else descriptions
-        self._color_description_alt = _ColorDescription(secondary, secondary == descriptions)
+        self._color_description_alt = _ColorDescription(shades if shades else descriptions, True)
 
         layout = QVBoxLayout(self)
         layout.addWidget(self._color_hex_code)
