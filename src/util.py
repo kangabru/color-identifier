@@ -23,8 +23,10 @@ class ColorDescription:
         self.description = description
         self.description_alt = description_alt
 
-    def __eq__(self, *args, **kargs):
-        return self.hex.__eq__(*args, **kargs)
+    def __eq__(self, o):
+        return self.hex == o.hex and \
+               self.description == o.description and \
+               self.description_alt == o.description_alt
 
     def __hash__(self, *args, **kargs):
         return self.hex.__hash__(*args, **kargs)
