@@ -1,4 +1,5 @@
 import sys
+from os.path import exists
 from PyQt5.QtCore import Qt, pyqtSignal, QPoint
 from PyQt5.QtGui import QColor, QIcon, QMouseEvent
 from PyQt5.QtWidgets import QDialog, QWidget, QVBoxLayout, QHBoxLayout, QApplication
@@ -47,11 +48,18 @@ class App(QDialog):
         self.color_circle = ColorCircle()
         hlayout.addWidget(self.color_circle)
 
-        descriptions = LoadColorDescriptions(_COLOR_FILE_PATH)
-        shades = LoadColorDescriptions(_COLOR_SHADES_FILE_PATH)
+        descriptions = LoadColorDescriptions(self._get_color_file())
+        shades = LoadColorDescriptions(self._get_color_shades_file())
 
         self.color_labels = ColorLabels(descriptions, shades)
         hlayout.addWidget(self.color_labels)
+
+    def _get_color_file(self):
+        """Returns the local color file if it exists, otherwise it uses the embedded color file."""
+        return _COLOR_FILE_PATH if exists(_COLOR_FILE_PATH) else GetResourcePath(_COLOR_FILE_PATH)
+
+    def _get_color_shades_file(self):
+        return GetResourcePath(_COLOR_SHADES_FILE_PATH)
 
     def _initSignals(self):
         self._connectColorUpdates(self.colorChanged.connect)
