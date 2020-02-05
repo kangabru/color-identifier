@@ -16,6 +16,7 @@ Key Features:
 
 - Click inside the app and drag to analyse colours anywhere on screen.
 - The hex code and color name will be displayed as the color changes.
+- Click the copy icon to copy the current hex code.
 - Hold down the `Ctrl` key to move slower in order to easily pick specific pixels.
 - Use your own color names by following [this guide](colors/readme.md).
 
