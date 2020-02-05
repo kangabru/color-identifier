@@ -6,8 +6,6 @@ download_url: https://github.com/kangabru/color-identifier/releases/latest/downl
 
 # ![Icon](https://raw.githubusercontent.com/kangabru/color-identifier/assets/assets/logo.png) Color Identifier
 
-A simple desktop colour picker tool which helps you to identify colors by their color name.
-
 Key Features:
 - Pick colors anywhere on screen and the closest matching color name will be displayed.
 - Includes a slow-mo mode for pixel accurate picking.
