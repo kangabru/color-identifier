@@ -1,4 +1,4 @@
-# Color Identifier
+# ![Icon](https://raw.githubusercontent.com/kangabru/color-identifier/assets/assets/logo.png) Color Identifier
 
 A simple desktop colour picker tool which helps you to identify colors by their color name.
 
@@ -7,6 +7,8 @@ Key Features:
 - Includes a slow-mo mode for pixel accurate picking.
 - Use the default colors or create your own! The app also ships with additional colors such as [CSS](https://www.w3schools.com/colors/colors_groups.asp), [xkcd](https://xkcd.com/color/rgb/), and even [Crayola](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors) colors to help you get started.
 - It's fast, and (should) support every OS and editing app like Photoshop or Lightroom.
+
+![Banner Image](https://raw.githubusercontent.com/kangabru/color-identifier/assets/assets/banner.jpg)
 
 ---
 
