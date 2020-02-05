@@ -3,6 +3,7 @@ from os import path
 from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import QWidget, QDesktopWidget
 from typing import List, Optional
+from tkinter import Tk
 
 
 def GetResourcePath(relative_path: str) -> str:
@@ -90,3 +91,14 @@ def CenterOnScreen(widget: QWidget):
     resolution = QDesktopWidget().screenGeometry()
     widget.move((resolution.width() / 2) - (widget.frameSize().width() / 2),
                 (resolution.height() / 2) - (widget.frameSize().height() / 2))
+
+
+def CopyToClipboard(text: str):
+    # Multi-platform solution
+    # https://stackoverflow.com/questions/579687/how-do-i-copy-a-string-to-the-clipboard-on-windows-using-python
+    r = Tk()
+    r.withdraw()
+    r.clipboard_clear()
+    r.clipboard_append(text)
+    r.update() # Stays on the clipboard after the window is closed
+    r.destroy()
