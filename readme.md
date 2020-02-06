@@ -12,6 +12,16 @@ Key Features:
 
 ---
 
+## Download
+
+| OS | Version | Download |
+|:---:|:---:|:---:|
+| Windows | [v1.0](https://github.com/kangabru/color-identifier/releases/tag/v1.0) | [Download](https://github.com/kangabru/color-identifier/releases/download/v1.0/Color.Identifier.zip) |
+| Linux | - | [Install from source](#Install) |
+| MacOS | - | [Install from source](#Install) |
+
+---
+
 ## Usage
 
 - Click inside the app and drag to analyse colours anywhere on screen.
