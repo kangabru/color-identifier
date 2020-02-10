@@ -68,6 +68,7 @@ def LoadColorDescriptions(file_path: str) -> COLOR_DESCRIPTIONS_TYPE:
     return descriptions.keys()
 
 
+# https://en.wikipedia.org/wiki/Color_difference
 def GetClosestColor(color: QColor, descriptions: COLOR_DESCRIPTIONS_TYPE) -> Optional[ColorDescription]:
     r, g, b, _ = color.getRgb()
 
