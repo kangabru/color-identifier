@@ -1,0 +1,247 @@
+// Tailwind 2.0 colours
+// https://tailwindcss.com/docs/customizing-colors
+
+#000,Black
+#fff,White
+
+#fff1f2,Rose 50
+#ffe4e6,Rose 100
+#fecdd3,Rose 200
+#fda4af,Rose 300
+#fb7185,Rose 400
+#f43f5e,Rose 500
+#e11d48,Rose 600
+#be123c,Rose 700
+#9f1239,Rose 800
+#881337,Rose 900
+
+#fdf2f8,Pink 50
+#fce7f3,Pink 100
+#fbcfe8,Pink 200
+#f9a8d4,Pink 300
+#f472b6,Pink 400
+#ec4899,Pink 500
+#db2777,Pink 600
+#be185d,Pink 700
+#9d174d,Pink 800
+#831843,Pink 900
+
+#fdf4ff,Fuchsia 50
+#fae8ff,Fuchsia 100
+#f5d0fe,Fuchsia 200
+#f0abfc,Fuchsia 300
+#e879f9,Fuchsia 400
+#d946ef,Fuchsia 500
+#c026d3,Fuchsia 600
+#a21caf,Fuchsia 700
+#86198f,Fuchsia 800
+#701a75,Fuchsia 900
+
+#faf5ff,Purple 50
+#f3e8ff,Purple 100
+#e9d5ff,Purple 200
+#d8b4fe,Purple 300
+#c084fc,Purple 400
+#a855f7,Purple 500
+#9333ea,Purple 600
+#7e22ce,Purple 700
+#6b21a8,Purple 800
+#581c87,Purple 900
+
+#f5f3ff,Violet 50
+#ede9fe,Violet 100
+#ddd6fe,Violet 200
+#c4b5fd,Violet 300
+#a78bfa,Violet 400
+#8b5cf6,Violet 500
+#7c3aed,Violet 600
+#6d28d9,Violet 700
+#5b21b6,Violet 800
+#4c1d95,Violet 900
+
+#eef2ff,Indigo 50
+#e0e7ff,Indigo 100
+#c7d2fe,Indigo 200
+#a5b4fc,Indigo 300
+#818cf8,Indigo 400
+#6366f1,Indigo 500
+#4f46e5,Indigo 600
+#4338ca,Indigo 700
+#3730a3,Indigo 800
+#312e81,Indigo 900
+
+#eff6ff,Blue 50
+#dbeafe,Blue 100
+#bfdbfe,Blue 200
+#93c5fd,Blue 300
+#60a5fa,Blue 400
+#3b82f6,Blue 500
+#2563eb,Blue 600
+#1d4ed8,Blue 700
+#1e40af,Blue 800
+#1e3a8a,Blue 900
+
+#f0f9ff,LightBlue 50
+#e0f2fe,LightBlue 100
+#bae6fd,LightBlue 200
+#7dd3fc,LightBlue 300
+#38bdf8,LightBlue 400
+#0ea5e9,LightBlue 500
+#0284c7,LightBlue 600
+#0369a1,LightBlue 700
+#075985,LightBlue 800
+#0c4a6e,LightBlue 900
+
+#ecfeff,Cyan 50
+#cffafe,Cyan 100
+#a5f3fc,Cyan 200
+#67e8f9,Cyan 300
+#22d3ee,Cyan 400
+#06b6d4,Cyan 500
+#0891b2,Cyan 600
+#0e7490,Cyan 700
+#155e75,Cyan 800
+#164e63,Cyan 900
+
+#f0fdfa,Teal 50
+#ccfbf1,Teal 100
+#99f6e4,Teal 200
+#5eead4,Teal 300
+#2dd4bf,Teal 400
+#14b8a6,Teal 500
+#0d9488,Teal 600
+#0f766e,Teal 700
+#115e59,Teal 800
+#134e4a,Teal 900
+
+#ecfdf5,Emerald 50
+#d1fae5,Emerald 100
+#a7f3d0,Emerald 200
+#6ee7b7,Emerald 300
+#34d399,Emerald 400
+#10b981,Emerald 500
+#059669,Emerald 600
+#047857,Emerald 700
+#065f46,Emerald 800
+#064e3b,Emerald 900
+
+#f0fdf4,Green 50
+#dcfce7,Green 100
+#bbf7d0,Green 200
+#86efac,Green 300
+#4ade80,Green 400
+#22c55e,Green 500
+#16a34a,Green 600
+#15803d,Green 700
+#166534,Green 800
+#14532d,Green 900
+
+#f7fee7,Lime 50
+#ecfccb,Lime 100
+#d9f99d,Lime 200
+#bef264,Lime 300
+#a3e635,Lime 400
+#84cc16,Lime 500
+#65a30d,Lime 600
+#4d7c0f,Lime 700
+#3f6212,Lime 800
+#365314,Lime 900
+
+#fefce8,Yellow 50
+#fef9c3,Yellow 100
+#fef08a,Yellow 200
+#fde047,Yellow 300
+#facc15,Yellow 400
+#eab308,Yellow 500
+#ca8a04,Yellow 600
+#a16207,Yellow 700
+#854d0e,Yellow 800
+#713f12,Yellow 900
+
+#fffbeb,Amber 50
+#fef3c7,Amber 100
+#fde68a,Amber 200
+#fcd34d,Amber 300
+#fbbf24,Amber 400
+#f59e0b,Amber 500
+#d97706,Amber 600
+#b45309,Amber 700
+#92400e,Amber 800
+#78350f,Amber 900
+
+#fff7ed,Orange 50
+#ffedd5,Orange 100
+#fed7aa,Orange 200
+#fdba74,Orange 300
+#fb923c,Orange 400
+#f97316,Orange 500
+#ea580c,Orange 600
+#c2410c,Orange 700
+#9a3412,Orange 800
+#7c2d12,Orange 900
+
+#fef2f2,Red 50
+#fee2e2,Red 100
+#fecaca,Red 200
+#fca5a5,Red 300
+#f87171,Red 400
+#ef4444,Red 500
+#dc2626,Red 600
+#b91c1c,Red 700
+#991b1b,Red 800
+
+#7f1d1d,Red 900
+#fafaf9,WarmGray 50
+#f5f5f4,WarmGray 100
+#e7e5e4,WarmGray 200
+#d6d3d1,WarmGray 300
+#a8a29e,WarmGray 400
+#78716c,WarmGray 500
+#57534e,WarmGray 600
+#44403c,WarmGray 700
+#292524,WarmGray 800
+#1c1917,WarmGray 900
+
+#fafafa,TrueGray 50
+#f5f5f5,TrueGray 100
+#e5e5e5,TrueGray 200
+#d4d4d4,TrueGray 300
+#a3a3a3,TrueGray 400
+#737373,TrueGray 500
+#525252,TrueGray 600
+#404040,TrueGray 700
+#262626,TrueGray 800
+#171717,TrueGray 900
+
+#fafafa,Gray 50
+#f4f4f5,Gray 100
+#e4e4e7,Gray 200
+#d4d4d8,Gray 300
+#a1a1aa,Gray 400
+#71717a,Gray 500
+#52525b,Gray 600
+#3f3f46,Gray 700
+#27272a,Gray 800
+#18181b,Gray 900
+
+#f9fafb,CoolGray 50
+#f3f4f6,CoolGray 100
+#e5e7eb,CoolGray 200
+#d1d5db,CoolGray 300
+#9ca3af,CoolGray 400
+#6b7280,CoolGray 500
+#4b5563,CoolGray 600
+#374151,CoolGray 700
+#1f2937,CoolGray 800
+#111827,CoolGray 900
+
+#f8fafc,BlueGray 50
+#f1f5f9,BlueGray 100
+#e2e8f0,BlueGray 200
+#cbd5e1,BlueGray 300
+#94a3b8,BlueGray 400
+#64748b,BlueGray 500
+#475569,BlueGray 600
+#334155,BlueGray 700
+#1e293b,BlueGray 800
+#0f172a,BlueGray 900
